@@ -1,5 +1,6 @@
 # lumoshive-academy-batch1-go
 This repo is contain all of my project from lumoshive academy bootcamp batch 1 as backend developer (go lang)
+
 Game Project Scratch : Flappy Bird 
 **Tentang Game. **
 Game “Flappy Bird” adalah permainan sederhana namun adiktif dimana pemain 
