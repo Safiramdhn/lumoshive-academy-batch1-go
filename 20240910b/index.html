@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <button id="btnFormInput" onclick="displayFormInput()">Input data</button>
+      <button id="btnLIstNama" onclick="showData()">List data</button>
+    </header>
+
+    <main>
+      <div id="formInputContainer">
+        <h1>Form Input</h1>
+        <label for="name">Name</label> <br />
+        <input type="text" id="name" name="name" placeholder="name" required/> <br />
+        <button type="submit" onclick="saveName()">SAVE</button>
+      </div>
+
+      <div id="listNama">
+        <!-- <h1>Daftar Nama</h1> -->
+        <div id="dataContainer"></div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

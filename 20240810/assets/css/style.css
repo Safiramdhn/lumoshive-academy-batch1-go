@@ -1,0 +1,195 @@
+/* export font */
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('assets/font/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* universal selector */
+* {
+    box-sizing: border-box;
+}
+
+/* reset styling */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* set font with custom font */
+    font-family: 'PoppinsRegular', sans-serif;
+    min-height: 100vh;
+}
+
+/* navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px !important;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 3rem !important;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 5px 10px !important;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 30px;
+
+}
+
+.navbar img {
+    width: 94px;
+    height: 38px;
+    top: 26px;
+    left: 143px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 0.5rem !important;
+}
+
+nav {
+    display: inline;
+    position: relative;
+}
+
+nav li a:hover {
+    color: #706FE5;
+}
+
+/* end of navbar styling */
+
+/* banner styling */
+.banner {
+    display: flex;
+    margin: 10px !important;
+}
+
+.img-banner {
+    width: Fixed (521px)px;
+    height: Hug (56px)px;
+    top: 582px;
+    left: 151px;
+    padding: 10px 40px 10px 40px !important;
+    gap: 10px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+
+.btn-banner {
+    width: 521px;
+    height: 56px;
+    top: 582px;
+    left: 151px;
+    padding: 10px 40px 10px 40px !important;
+    gap: 10px;
+    border-radius: 12px;
+    border: none;
+    background: #706FE5;
+}
+
+.btn-banner a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+
+/* end of banner styling */
+
+p {
+    color: #2E3E5C;
+}
+
+/* companies styling */
+.companies {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px !important;
+}
+
+.companies img {
+    width: 100px;
+}
+
+/* end of companies styling */
+
+/* main styling */
+.container {
+    margin-top: 100px !important;
+    min-height: 100vh;
+    /* Ensure the container takes the full viewport height */
+}
+
+/* product styling */
+.product-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.thumbnail img {
+    width: 250px;
+}
+
+.main-thumbnail figure img {
+    width: 555px;
+    height: 448px;
+}
+
+.side-thumbnail {
+    /* custom grid for rigth side gallery */
+    display: grid;
+    grid-template-columns: 314px 325px;
+    /* 2 columns: 100px wide and 200px wide */
+    grid-template-rows: 300px;
+    /* 2 rows: each 150px high */
+    gap: 10px;
+}
+
+.thumbnail h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+
+figure {
+    margin: 10px !important;
+}
+/* end of product styling */
+
+/* footer styling */
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #2E3E5C;
+    padding: 10px !important;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+/* end of footer styling */
+
